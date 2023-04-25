@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <div><h3 class="titles" id="test">HOME</h3></div>
+        <div id="homeS" class="score"><p class="font" id="home">0</p></div>
+        <div class="font" id="homeadd">
+          <button onclick="plus1home();scoreChecker();">+1</button>
+          <button onclick="plus2home();scoreChecker();"">+2</button>
+          <button onclick="plus3home();scoreChecker();"">+3</button>
+        </div>
+      </div>
+      <div>
+        <div><h3 class="titles">GUEST</h3></div>
+        <div id="awayS" class="score"><p class="font" id="away">0</p></div>
+        <div class="font" id="awayadd">
+          <button onclick="plus1away();scoreChecker();">+1</button>
+          <button onclick="plus2away();scoreChecker();">+2</button>
+          <button onclick="plus3away();scoreChecker();">+3</button>
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
